@@ -1,12 +1,10 @@
-import './App.css';
-
 import React from 'react'
 import {Route, BrowserRouter} from 'react-router-dom'
-import NaviBar from './navibar'
-import mainpage from './mainpage'
-import profile from './profile'
-import product from './product'
-import contact from './contact'
+import NaviBar from './navibar/navibar'
+import mainpage from './mainpage/mainpage'
+import profile from './profile/profile'
+import product from './product/product'
+import contact from './contact/contact'
 
 function App() {
   return (
