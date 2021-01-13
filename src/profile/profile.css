@@ -1,0 +1,13 @@
+.image {
+  width: 200px;
+  height: 200px;
+}
+
+.main_layout {
+  display: flex;
+  flex-direction: row;
+}
+
+.profile {
+  padding: 20px;
+}

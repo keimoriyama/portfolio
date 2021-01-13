@@ -7,8 +7,8 @@ class NaviBar extends React.Component{
         return(
             <div>
                 <Link to="/" className="bar">Home</Link>
-                <Link to="/product" className='bar'>product</Link>
                 <Link to="/profile" className='bar'>profile</Link>
+                <Link to="/product" className='bar'>product</Link>
                 <Link to="/contact" className='bar'>contact</Link>
             </div>
         )

@@ -1,4 +1,5 @@
 import React from 'react'
+import "./mainpage.css"
 
 class mainpage extends React.Component{
     render(){
