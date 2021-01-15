@@ -1,13 +1,8 @@
-.image {
-  width: 200px;
-  height: 200px;
+.title {
+  text-align: center;
 }
 
-.main_layout {
-  display: flex;
-  flex-direction: row;
-}
-
-.profile {
-  padding: 20px;
+.title_content {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }

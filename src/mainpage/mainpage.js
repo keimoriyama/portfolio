@@ -4,8 +4,10 @@ import "./mainpage.css"
 class mainpage extends React.Component{
     render(){
         return(
-            <div>
-                <h1>This is main page</h1>
+            <div className='title'>
+                <h1 className='title_content'>Welcome</h1>
+                <h1 className='title_content'>To</h1>
+                <h1 className='title_content'>My Portfolio!</h1>
             </div>
         )
     }
