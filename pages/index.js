@@ -1,9 +1,16 @@
-import { Container, Box, Heading } from '@chakra-ui/react'
+import { Container, Box, Heading, useColorModeValue } from '@chakra-ui/react'
 const Page = () => {
   return (
     <Container>
-      <Box borderRadius="lg" bg="red" p={3} mb={6} align="center">
-        Hello, I&apos;m a Master student in Japan.
+      <Box
+        borderRadius="lg"
+        mb={6}
+        p={3}
+        textAlign="center"
+        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+        css={{ backdropFilter: 'blur(10px)' }}
+      >
+        Hello, I&apos;m M1 student in Japan!
       </Box>
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
