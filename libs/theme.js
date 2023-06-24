@@ -14,7 +14,7 @@ const components = {
     variants: {
       'section-title': {
         textDecoration: 'underline',
-        fontsize: 20,
+        fontSize: 20,
         textUnderlineOffset: 6,
         textDecorationColor: '#525252',
         textDecorationThickness: 4,
@@ -41,7 +41,7 @@ const colors = {
 
 const config = {
   initialColorMode: 'dark',
-  useSystemCoilorMode: true
+  useSystemColorMode: true
 }
 
 const theme = extendTheme({
