@@ -4,7 +4,11 @@ import {
   Box,
   Button,
   Heading,
+  List,
+  ListItem,
   useColorModeValue,
+  Link,
+  SimpleGrid,
   Image
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
@@ -12,6 +16,8 @@ import Layout from '../components/layout/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
+import { GridItem } from '../components/grid-item'
+import { IoLogoTwitter, IoLogoGithub } from 'react-icons/io5'
 
 const Page = () => {
   return (
@@ -74,6 +80,20 @@ const Page = () => {
             <BioYear>1999</BioYear>
             Born in Aichi
           </BioSection>
+        </Section>
+        <Section delay={0.3}>
+          <Heading as="h3" variant="section-title">
+            On the web
+          </Heading>
+          <List>
+            <ListItem>
+              <Link href="https://twitter.com/moriy4ma">
+                <Button variant="ghost">
+                  <IoLogoTwitter size={24} />
+                </Button>
+              </Link>
+            </ListItem>
+          </List>
         </Section>
       </Container>
     </Layout>
