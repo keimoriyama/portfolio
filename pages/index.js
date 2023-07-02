@@ -11,7 +11,8 @@ import {
   SimpleGrid,
   OrderedList,
   UnorderedList,
-  Image
+  Image,
+  Text
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../components/layout/article'
@@ -64,40 +65,54 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             Education
           </Heading>
-          <BioSection>
-            <BioYear>修士（学術）</BioYear>2024/04~2025/03(予定)
-            <List>
-              <ListItem>東京大学総合文化研究科広域システム科学系</ListItem>
-              <ListItem>
-                指導教員：
-                <Link href="http://yukinobaba.jp/ja/">馬場　雪乃准教授</Link>
-              </ListItem>
-            </List>
-          </BioSection>
-          <BioSection>
-            <BioYear>学士（情報工学）</BioYear>2021/04~2022/03
-            <List>
-              <ListItem>筑波大学情報学群情報科学類</ListItem>
-              <ListItem>
-                卒業研究「専門家と非専門家に対するアノテーション検証割り当ての自動化」
-              </ListItem>
-              <ListItem>
-                指導教員：
-                <Link href="http://yukinobaba.jp/ja/">馬場　雪乃准教授</Link>
-              </ListItem>
-            </List>
-          </BioSection>
-          <BioSection>
-            <BioYear>準学士</BioYear>2014/04~2021/03
-            <List>
-              <ListItem>豊田工業高等専門学校情報工学科</ListItem>
-              <ListItem>卒業研究「」</ListItem>
-              <ListItem>
-                指導教員：
-                <Link href="https://mnacsm.github.io/">村田 匡輝准教授</Link>
-              </ListItem>
-            </List>
-          </BioSection>
+          <List>
+            <ListItem>
+              <BioSection>
+                <BioYear>修士（学術）</BioYear>2024/04~2025/03(予定)
+                <Box>
+                  <Text>東京大学総合文化研究科広域システム科学系</Text>
+                  <Text>
+                    指導教員：
+                    <Link href="http://yukinobaba.jp/ja/">
+                      馬場　雪乃准教授
+                    </Link>
+                  </Text>
+                </Box>
+              </BioSection>
+            </ListItem>
+            <ListItem>
+              <BioSection>
+                <BioYear>学士（情報工学）</BioYear>2021/04~2022/03
+                <Box>
+                  <Text>筑波大学情報学群情報科学類</Text>
+                  <Text>
+                    卒業研究「専門家と非専門家に対するアノテーション検証割り当ての自動化」
+                  </Text>
+                  <Text>
+                    指導教員：
+                    <Link href="http://yukinobaba.jp/ja/">
+                      馬場　雪乃准教授
+                    </Link>
+                  </Text>
+                </Box>
+              </BioSection>
+            </ListItem>
+            <ListItem>
+              <BioSection>
+                <BioYear>準学士</BioYear>2014/04~2021/03
+                <Box>
+                  <Text>豊田工業高等専門学校情報工学科</Text>
+                  <Text>卒業研究「」</Text>
+                  <Text>
+                    指導教員：
+                    <Link href="https://mnacsm.github.io/">
+                      村田 匡輝准教授
+                    </Link>
+                  </Text>
+                </Box>
+              </BioSection>
+            </ListItem>
+          </List>
         </Section>
 
         <Section delay={0.2}>
@@ -106,9 +121,15 @@ const Page = () => {
           </Heading>
           <OrderedList>
             <ListItem>
-              <Link href="https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/P9-7.pdf">
-                専門家と非専門家によるアノテーション検証割り当ての自動化
-              </Link>
+              <Box>
+                <Link href="https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/P9-7.pdf">
+                  専門家と非専門家によるアノテーション検証割り当ての自動化
+                </Link>
+                <Text fontsize="lg">
+                  <Text as="ins">守山　慧</Text>,中山　功太,馬場　雪乃
+                </Text>
+                <Text fontsize="lg">言語処理学会第29回年次大会(NLP2023)</Text>
+              </Box>
             </ListItem>
           </OrderedList>
         </Section>
