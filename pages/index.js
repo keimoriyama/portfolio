@@ -1,4 +1,3 @@
-import NextLink from 'next/link'
 import {
   Container,
   Box,
@@ -6,23 +5,19 @@ import {
   Heading,
   List,
   ListItem,
-  useColorModeValue,
   Link,
-  SimpleGrid,
   OrderedList,
   UnorderedList,
   Image,
   Text
 } from '@chakra-ui/react'
-import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../components/layout/article'
 import Section from '../components/section'
-import Paragraph from '../components/paragraph'
+import Work from '../components/work'
+import Education from '../components/education'
 import { BioSection, BioYear } from '../components/bio'
-import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoGithub } from 'react-icons/io5'
 import { FaKaggle } from 'react-icons/fa'
-import { IoMailOutline } from 'react-icons/io5'
 
 const Page = () => {
   return (
@@ -65,54 +60,27 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             Education
           </Heading>
-          <List>
-            <ListItem>
-              <BioSection>
-                <BioYear>修士（学術）</BioYear>2024/04~2025/03(予定)
-                <Box>
-                  <Text>東京大学総合文化研究科広域システム科学系</Text>
-                  <Text>
-                    指導教員：
-                    <Link href="http://yukinobaba.jp/ja/">
-                      馬場　雪乃准教授
-                    </Link>
-                  </Text>
-                </Box>
-              </BioSection>
-            </ListItem>
-            <ListItem>
-              <BioSection>
-                <BioYear>学士（情報工学）</BioYear>2021/04~2022/03
-                <Box>
-                  <Text>筑波大学情報学群情報科学類</Text>
-                  <Text>
-                    卒業研究「専門家と非専門家に対するアノテーション検証割り当ての自動化」
-                  </Text>
-                  <Text>
-                    指導教員：
-                    <Link href="http://yukinobaba.jp/ja/">
-                      馬場　雪乃准教授
-                    </Link>
-                  </Text>
-                </Box>
-              </BioSection>
-            </ListItem>
-            <ListItem>
-              <BioSection>
-                <BioYear>準学士</BioYear>2014/04~2021/03
-                <Box>
-                  <Text>豊田工業高等専門学校情報工学科</Text>
-                  <Text>卒業研究「」</Text>
-                  <Text>
-                    指導教員：
-                    <Link href="https://mnacsm.github.io/">
-                      村田 匡輝准教授
-                    </Link>
-                  </Text>
-                </Box>
-              </BioSection>
-            </ListItem>
-          </List>
+          <Education
+            degree="修士（学術）"
+            school="東京大学総合文化研究科広域システム科学系"
+            href="http://yukinobaba.jp/ja/"
+            teacher="馬場 雪乃准教授"
+            time="2024/04~2025/03(予定)"
+          />
+          <Education
+            degree="学士（情報工学）"
+            school="筑波大学情報学群情報科学類"
+            href="http://yukinobaba.jp/"
+            teacher="馬場 雪乃准教授"
+            time="2021/04~2022/03"
+          />
+          <Education
+            degree="準学士"
+            school="豊田工業高等専門学校情報工学科"
+            href="https://mnacsm.github.io/"
+            teacher="村田 匡輝准教授"
+            time="2014/04~2021/03"
+          />
         </Section>
 
         <Section delay={0.2}>
@@ -126,7 +94,7 @@ const Page = () => {
                   専門家と非専門家によるアノテーション検証割り当ての自動化
                 </Link>
                 <Text fontsize="lg">
-                  <Text as="ins">守山　慧</Text>,中山　功太,馬場　雪乃
+                  <Text as="ins">守山 慧</Text>,中山 功太,馬場 雪乃
                 </Text>
                 <Text fontsize="lg">言語処理学会第29回年次大会(NLP2023)</Text>
               </Box>
@@ -143,6 +111,23 @@ const Page = () => {
           </UnorderedList>
         </Section>
 
+        <Section delay={0.4}>
+          <Heading as="h3" variant="section-title">
+            Work experience
+          </Heading>
+          <Work
+            title="理化学研究所"
+            start="2022/04"
+            end="2023/03"
+            desc="リサーチアシスタントとして働いていました"
+          />
+          <Work
+            title="株式会社HogeticLab"
+            start="2021/06"
+            end="2023/03"
+            desc="インターンとして働いていました"
+          />
+        </Section>
         <Section delay={0.4}>
           <Heading as="h3" variant="section-title">
             On the web
