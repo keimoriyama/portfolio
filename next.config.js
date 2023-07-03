@@ -3,7 +3,6 @@ module.exports = {
   swcMinify: true,
   output: 'export',
   images: {
-    loader: 'custom',
     loaderFile: './public/images'
   }
 }
