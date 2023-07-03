@@ -1,5 +1,9 @@
 module.exports = {
   reactStrictMode: true,
   swcMinify: true,
-  output: 'export'
+  output: 'export',
+  images: {
+    loader: 'custom',
+    loaderFile: './public/images'
+  }
 }
