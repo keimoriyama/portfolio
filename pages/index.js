@@ -55,7 +55,7 @@ const Page = () => {
               maxWidth="100px"
               display="inline-block"
               borderRadius="full"
-              src="/images/KeiMoriyama.png"
+              src="./images/KeiMoriyama.png"
               alt="Profile Image"
             />
           </Box>
