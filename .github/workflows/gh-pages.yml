@@ -27,15 +27,13 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: npm run export
-        with:
-          path: ./public
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{github.ref == 'refs/heads/master'}}
         with:
           github_token: ${{secrets.GITHUB_TOKEN}}
-          publish_dir: ./public
+          publish_dir: ./out
 
   # Deployment job
   deploy:
