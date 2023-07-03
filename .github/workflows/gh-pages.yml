@@ -26,6 +26,9 @@ jobs:
 
       - run: npm ci
       - run: npm run build
+      - run: npm run export
+        with:
+          path: ./public
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
@@ -40,7 +43,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: build
+    needs: build-deploy
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
