@@ -4,7 +4,6 @@ import { Text, Box, Link } from '@chakra-ui/react'
 
 const Education = ({ degree, school, href, teacher, time }) => (
   <BioSection>
-    {' '}
     <BioYear>{degree}</BioYear>
     {time}
     <Box>
