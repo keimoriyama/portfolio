@@ -15,9 +15,9 @@ import Layout from '../components/layout/article'
 import Section from '../components/section'
 import Work from '../components/work'
 import Education from '../components/education'
-import { BioSection, BioYear } from '../components/bio'
-import { IoLogoTwitter, IoLogoGithub } from 'react-icons/io5'
+import { IoLogoGithub } from 'react-icons/io5'
 import { FaKaggle } from 'react-icons/fa'
+import { FaXTwitter } from 'react-icons/fa6'
 
 const Page = () => {
   return (
@@ -31,7 +31,7 @@ const Page = () => {
             <List>
               <ListItem>
                 所属：東京大学総合文化研究科広域科学専攻広域システム科学系
-                馬場研究室M1
+                馬場研究室M2
               </ListItem>
               <ListItem>Mail:kei-moriyama[at]g.ecc.u-tokyo.ac.jp</ListItem>
             </List>
@@ -85,9 +85,29 @@ const Page = () => {
 
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
-            Publication
+            Publication (Peer review)
           </Heading>
           <OrderedList>
+            <ListItem>Work in Progress...</ListItem>
+          </OrderedList>
+        </Section>
+
+        <Section delay={0.2}>
+          <Heading as="h3" variant="section-title">
+            Publication (No Peer review)
+          </Heading>
+          <OrderedList>
+            <ListItem>
+              <Box>
+                <Link href="https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P3-6.pdf">
+                  マッチング数制約下でのアノテーション検証割り当ての自動化
+                </Link>
+                <Text fontsize="lg">
+                  <Text as="ins">守山 慧</Text>,中山 功太,馬場 雪乃
+                </Text>
+                <Text fontsize="lg">言語処理学会第30回年次大会(NLP2024)</Text>
+              </Box>
+            </ListItem>
             <ListItem>
               <Box>
                 <Link href="https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/P9-7.pdf">
@@ -136,7 +156,7 @@ const Page = () => {
             <ListItem>
               <Link href="https://twitter.com/moriy4ma">
                 <Button variant="ghost">
-                  <IoLogoTwitter size={24} />
+                  <FaXTwitter size={24} />
                 </Button>
               </Link>
               <Link href="https://github.com/keimoriyama">
