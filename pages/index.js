@@ -85,7 +85,16 @@ const Page = () => {
 
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
-            Publication
+            Publication (Peer review)
+          </Heading>
+          <OrderedList>
+            <ListItem>Work in Progress...</ListItem>
+          </OrderedList>
+        </Section>
+
+        <Section delay={0.2}>
+          <Heading as="h3" variant="section-title">
+            Publication (No Peer review)
           </Heading>
           <OrderedList>
             <ListItem>
