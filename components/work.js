@@ -12,7 +12,7 @@ export const Title = ({ children }) => (
       <chevronRightIcon />
       &nbsp;
     </span>
-    <Heading dislpay="inline-block" as="h3" fontsize={20} mb={4}>
+    <Heading dislpay="inline-block" as="h3" fontSize={20} mb={4}>
       {children}
     </Heading>
   </Box>

@@ -102,10 +102,10 @@ const Page = () => {
                 <Link href="https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P3-6.pdf">
                   マッチング数制約下でのアノテーション検証割り当ての自動化
                 </Link>
-                <Text fontsize="lg">
+                <Text fontSize="lg">
                   <Text as="ins">守山 慧</Text>,中山 功太,馬場 雪乃
                 </Text>
-                <Text fontsize="lg">言語処理学会第30回年次大会(NLP2024)</Text>
+                <Text fontSize="lg">言語処理学会第30回年次大会(NLP2024)</Text>
               </Box>
             </ListItem>
             <ListItem>
@@ -113,10 +113,10 @@ const Page = () => {
                 <Link href="https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/P9-7.pdf">
                   専門家と非専門家によるアノテーション検証割り当ての自動化
                 </Link>
-                <Text fontsize="lg">
+                <Text fontSize="lg">
                   <Text as="ins">守山 慧</Text>,中山 功太,馬場 雪乃
                 </Text>
-                <Text fontsize="lg">言語処理学会第29回年次大会(NLP2023)</Text>
+                <Text fontSize="lg">言語処理学会第29回年次大会(NLP2023)</Text>
               </Box>
             </ListItem>
           </OrderedList>
