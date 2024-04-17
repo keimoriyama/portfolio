@@ -18,7 +18,8 @@
   "devDependencies": {
     "eslint": "^8.43.0",
     "eslint-config-next": "^13.4.6",
-    "prettier": "^2.8.8"
+    "prettier": "^2.8.8",
+    "@types/bun": "latest"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.19",
@@ -31,5 +32,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
   }
 }
