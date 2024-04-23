@@ -110,6 +110,17 @@ const Page = () => {
 						</ListItem>
 						<ListItem>
 							<Box>
+								<Link href="https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P3-6.pdf">
+									Wisdom of Prompts：プロンプトの重みづけによるLLMの精度向上
+								</Link>
+								<Text fontSize="lg">
+									<Text as="ins">守山 慧</Text>,中山 功太,馬場 雪乃
+								</Text>
+								<Text fontSize="lg">NLP若手の会 (YANS) 第18回シンポジウム</Text>
+							</Box>
+						</ListItem>
+						<ListItem>
+							<Box>
 								<Link href="https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/P9-7.pdf">
 									専門家と非専門家によるアノテーション検証割り当ての自動化
 								</Link>
