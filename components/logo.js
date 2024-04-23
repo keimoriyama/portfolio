@@ -17,20 +17,20 @@ padding:10px
 `
 
 const Logo = () => {
-  return (
-    <Link href="/">
-      <LogoBox>
-        <Text
-          color={useColorModeValue('gray.800', 'whiteAlpha.900')}
-          contfamily="M PLUS Rounded 1c"
-          fontWeight="bold"
-          ml={3}
-        >
-          Kei Moriyama's Portfolio
-        </Text>
-      </LogoBox>
-    </Link>
-  )
+	return (
+		<Link href="/">
+			<LogoBox>
+				<Text
+					color={useColorModeValue('gray.800', 'whiteAlpha.900')}
+					contfamily="M PLUS Rounded 1c"
+					fontWeight="bold"
+					ml={3}
+				>
+					Kei Moriyama's Portfolio
+				</Text>
+			</LogoBox>
+		</Link>
+	)
 }
 
 export default Logo
