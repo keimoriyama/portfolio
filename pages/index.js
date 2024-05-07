@@ -105,7 +105,9 @@ const Page = () => {
                 <Text fontSize="lg">
                   <Text as="ins">守山 慧</Text>,中山 功太,馬場 雪乃
                 </Text>
-                <Text fontSize="lg">言語処理学会第30回年次大会(NLP2024)</Text>
+                <Text fontSize="lg">
+                  言語処理学会第30回年次大会 発表論文集(NLP2024)
+                </Text>
               </Box>
             </ListItem>
             <ListItem>
@@ -116,7 +118,9 @@ const Page = () => {
                 <Text fontSize="lg">
                   今川 涼平,<Text as="ins">守山 慧</Text>,楊 明哲,馬場 雪乃
                 </Text>
-                <Text fontSize="lg">言語処理学会第30回年次大会(NLP2024)</Text>
+                <Text fontSize="lg">
+                  言語処理学会第30回年次大会 発表論文集(NLP2024)
+                </Text>
               </Box>
             </ListItem>
             <ListItem>
@@ -138,7 +142,9 @@ const Page = () => {
                 <Text fontSize="lg">
                   <Text as="ins">守山 慧</Text>,中山 功太,馬場 雪乃
                 </Text>
-                <Text fontSize="lg">言語処理学会第29回年次大会(NLP2023)</Text>
+                <Text fontSize="lg">
+                  言語処理学会第29回年次大会 発表論文集(NLP2023)
+                </Text>
               </Box>
             </ListItem>
           </OrderedList>
