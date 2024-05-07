@@ -110,6 +110,17 @@ const Page = () => {
             </ListItem>
             <ListItem>
               <Box>
+                <Link href="https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/A5-4.pdf">
+                  文献理解のための人間の応答を利用したプロンプト最適化
+                </Link>
+                <Text fontSize="lg">
+                  今川 涼平,<Text as="ins">守山 慧</Text>,楊 明哲,馬場 雪乃
+                </Text>
+                <Text fontSize="lg">言語処理学会第30回年次大会(NLP2024)</Text>
+              </Box>
+            </ListItem>
+            <ListItem>
+              <Box>
                 <Link href="https://yans.anlp.jp/entry/yans2023program#1750-1850-%E3%83%9D%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BB%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3-3">
                   Wisdom of Prompts：プロンプトの重みづけによるLLMの精度向上
                 </Link>
