@@ -65,14 +65,14 @@ const Page = () => {
             school="東京大学総合文化研究科広域システム科学系"
             href="http://yukinobaba.jp/ja/"
             teacher="馬場 雪乃准教授"
-            time="2024/04~2025/03(予定)"
+            time="2023/04~2025/03(予定)"
           />
           <Education
             degree="学士（情報工学）"
             school="筑波大学情報学群情報科学類"
             href="http://yukinobaba.jp/"
             teacher="馬場 雪乃准教授"
-            time="2021/04~2022/03"
+            time="2021/04~2023/03"
           />
           <Education
             degree="準学士"
