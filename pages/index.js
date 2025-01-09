@@ -99,6 +99,17 @@ const Page = () => {
           <OrderedList>
             <ListItem>
               <Box>
+                <Link href="https://yans.anlp.jp/entry/yans2024program">
+                  タスク特徴を考慮したマッチング制約下におけるアノテーション割り当て
+                </Link>
+                <Text fontSize="lg">
+                  <Text as="ins">守山 慧</Text>,中山 功太,馬場 雪乃
+                </Text>
+                <Text fontSize="lg">NLP若手の会 (YANS) 第19回シンポジウム</Text>
+              </Box>
+            </ListItem>
+            <ListItem>
+              <Box>
                 <Link href="https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P3-6.pdf">
                   マッチング数制約下でのアノテーション検証割り当ての自動化
                 </Link>
