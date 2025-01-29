@@ -71,7 +71,7 @@ const Page = () => {
             degree="学士（情報工学）"
             school="筑波大学情報学群情報科学類"
             href="http://yukinobaba.jp/"
-            teacher="馬場 雪乃准教授"
+n            teacher="馬場 雪乃准教授"
             time="2021/04~2023/03"
           />
           <Education
@@ -173,12 +173,17 @@ const Page = () => {
         <Section delay={0.4}>
           <Heading as="h3" variant="section-title">
             Work experience
-          </Heading>
+      </Heading>
+          <Work
+      title="大規模言語モデル研究開発センター(LLMC)"
+      start="2024/09"
+      end='now'
+      desc="RAとして働いています"/>
           <Work
             title="理化学研究所"
             start="2022/04"
             end="2023/03"
-            desc="リサーチアシスタントとして働いていました"
+            desc="RAとして働いていました"
           />
           <Work
             title="株式会社HogeticLab"
