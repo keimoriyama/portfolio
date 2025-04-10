@@ -31,7 +31,7 @@ const Page = () => {
             <List>
               <ListItem>
                 所属：東京大学総合文化研究科広域科学専攻広域システム科学系
-                馬場研究室M2
+                馬場研究室D1
               </ListItem>
               <ListItem>Mail:kei-moriyama[at]g.ecc.u-tokyo.ac.jp</ListItem>
             </List>
