@@ -61,11 +61,18 @@ const Page = () => {
             Education
           </Heading>
           <Education
+            degree="博士（学術）"
+            school="東京大学総合文化研究科広域システム科学系"
+            href="http://yukinobaba.jp/ja/"
+            teacher="馬場 雪乃准教授"
+            time="2025/04~現在"
+          />
+          <Education
             degree="修士（学術）"
             school="東京大学総合文化研究科広域システム科学系"
             href="http://yukinobaba.jp/ja/"
             teacher="馬場 雪乃准教授"
-            time="2023/04~2025/03(予定)"
+            time="2023/04~2025/03"
           />
           <Education
             degree="学士（情報工学）"
@@ -165,6 +172,9 @@ n            teacher="馬場 雪乃准教授"
           <Heading as="h3" variant="section-title">
             Awards
           </Heading>
+          <UnorderedList>
+            <ListItem>令和7年度広域科学専攻奨励賞</ListItem>
+          </UnorderedList>
           <UnorderedList>
             <ListItem>令和5年度筑波大学心青会賞</ListItem>
           </UnorderedList>
