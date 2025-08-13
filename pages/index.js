@@ -56,7 +56,7 @@ const Page = () => {
           </Box>
         </Box>
 
-        <Section delay={0.1}>
+        <Section >
           <Heading as="h3" variant="section-title">
             Education
           </Heading>
@@ -90,7 +90,7 @@ n            teacher="馬場 雪乃准教授"
           />
         </Section>
 
-        <Section delay={0.2}>
+        <Section >
           <Heading as="h3" variant="section-title">
             Publication (Peer review)
           </Heading>
@@ -99,7 +99,7 @@ n            teacher="馬場 雪乃准教授"
           </OrderedList>
         </Section>
 
-        <Section delay={0.2}>
+        <Section >
           <Heading as="h3" variant="section-title">
             Publication (No Peer review)
           </Heading>
@@ -168,7 +168,7 @@ n            teacher="馬場 雪乃准教授"
           </OrderedList>
         </Section>
 
-        <Section delay={0.3}>
+        <Section >
           <Heading as="h3" variant="section-title">
             Awards
           </Heading>
@@ -180,7 +180,7 @@ n            teacher="馬場 雪乃准教授"
           </UnorderedList>
         </Section>
 
-        <Section delay={0.4}>
+        <Section >
           <Heading as="h3" variant="section-title">
             Work experience
       </Heading>
@@ -202,7 +202,8 @@ n            teacher="馬場 雪乃准教授"
             desc="インターンとして働いていました"
           />
         </Section>
-        <Section delay={0.4}>
+
+        <Section >
           <Heading as="h3" variant="section-title">
             On the web
           </Heading>
