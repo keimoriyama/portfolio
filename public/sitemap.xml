@@ -2,14 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/portfolio/</loc>
+    <lastmod>2025-09-14T21:05:52+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/post/</loc>
+    <lastmod>2025-09-14T21:05:52+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/post/test/</loc>
+    <lastmod>2025-09-14T21:05:52+09:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/portfolio/introduction/introduction/</loc>
-    <lastmod>2025-09-14T20:41:08+09:00</lastmod>
+    <lastmod>2025-09-14T20:54:24+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/portfolio/introduction/</loc>
-    <lastmod>2025-09-14T20:41:08+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/portfolio/</loc>
-    <lastmod>2025-09-14T20:41:08+09:00</lastmod>
+    <lastmod>2025-09-14T20:54:24+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/portfolio/categories/</loc>
   </url><url>
