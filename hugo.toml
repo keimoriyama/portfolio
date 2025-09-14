@@ -1,5 +1,5 @@
 baseURL = "https://keimoriyama.github.io/portfolio/"
-languageCode = "jp-jp"
+languageCode = "jp-JP"
 title = "K's blog"
 theme = "github-style"
 pygmentsCodeFences = true
@@ -24,18 +24,18 @@ pygmentsUseClasses = true
   headerIcon = "images/github-mark-white.png"
   location = "Japan"
   userStatusEmoji = "😀"
-  enableGitalk = true
+  enableGitalk = false
   enableSearch = true
   
 [[params.self]]
   name = 'Self'
-  url="https://keimoriyama.github.io/portfolio/"
+  url="https://keimoriyama.github.io/portfolio/content/introduction.html"
 
 [[params.projects]]
   name='Projects'
   url="https://keimoriyama.github.io/portfolio/"
   
-# [params.gitalk]
+  # [params.gitalk]
   #   clientID = "Your client ID" # Your client ID
   #   clientSecret = "Your client secret" # Your client secret
   #   repo = "LuvSia" # 您的博客的github地址Repository name，例如：xxxx.github.io
@@ -56,6 +56,6 @@ pygmentsUseClasses = true
   #   href = "https://meik2333.com"
   #   icon = "https://meik2333.com/images/avatar.png"
 
-# [frontmatter]
-#   lastmod = ["lastmod", ":fileModTime", ":default"]
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
 
