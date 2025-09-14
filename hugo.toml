@@ -26,8 +26,16 @@ pygmentsUseClasses = true
   userStatusEmoji = "😀"
   enableGitalk = true
   enableSearch = true
+  
+[[params.self]]
+  name = 'Self'
+  url="https://keimoriyama.github.io/portfolio/"
 
-  # [params.gitalk]
+[[params.projects]]
+  name='Projects'
+  url="https://keimoriyama.github.io/portfolio/"
+  
+# [params.gitalk]
   #   clientID = "Your client ID" # Your client ID
   #   clientSecret = "Your client secret" # Your client secret
   #   repo = "LuvSia" # 您的博客的github地址Repository name，例如：xxxx.github.io
