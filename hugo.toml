@@ -29,11 +29,11 @@ pygmentsUseClasses = true
   
 [[params.self]]
   name = 'Self'
-  url="https://keimoriyama.github.io/portfolio/content/introduction.html"
+  url="/introduction/introduction"
 
 [[params.projects]]
   name='Projects'
-  url="https://keimoriyama.github.io/portfolio/"
+  url="projects/projects"
   
   # [params.gitalk]
   #   clientID = "Your client ID" # Your client ID

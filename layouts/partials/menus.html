@@ -31,13 +31,13 @@
             </a>
             
             {{ range .Site.Params.self }}
-            <a class="UnderlineNav-item {{ if .IsSection }} selected {{ end }}{{ if eq .Type " tags" }} selected {{ end }}" href="{{ .url }}">
+            <a class="UnderlineNav-item {{ if .IsSection }} selected {{ end }}{{ if eq .Type " tags" }} selected {{ end }}" href="{{urls.JoinPath .Site.BaseURL .url }}">
               {{ .name}}
             </a>
             {{ end }}
 
             {{ range .Site.Params.projects }}
-            <a class="UnderlineNav-item {{ if .IsSection }} selected {{ end }}{{ if eq .Type " tags" }} selected {{ end }}" href="{{ .url }}">
+            <a class="UnderlineNav-item {{ if .IsSection }} selected {{ end }}{{ if eq .Type " tags" }} selected {{ end }}" href="{{urls.JoinPath .Site.BaseURL .url }}">
               {{ .name}}
             </a>
             {{ end }}
