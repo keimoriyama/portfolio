@@ -5,6 +5,11 @@ theme = "github-style"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 
+# [markup]
+#   [markup.goldmark]
+[markup.goldmark.renderer]
+      unsafe = true
+      
 [params]
   author = "Kei Moriyama"
   description = "D1 @babalablab"
@@ -20,7 +25,7 @@ pygmentsUseClasses = true
   # rss = true
   lastmod = true
   favicon = "images/github-mark.png"
-  avatar = "images/icon.png"
+  avatar = "images/avatar.png"
   headerIcon = "images/github-mark-white.png"
   location = "Japan"
   userStatusEmoji = "😀"
@@ -34,7 +39,10 @@ pygmentsUseClasses = true
 [[params.projects]]
   name='Projects'
   url="projects/projects"
-  
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
   # [params.gitalk]
   #   clientID = "Your client ID" # Your client ID
   #   clientSecret = "Your client secret" # Your client secret
